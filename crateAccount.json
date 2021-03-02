@@ -1,3 +1,7 @@
+##account:0xf14bfc98426b9ba6
+##Encoded public key (share freely):   e5b89b305efe06b0fd28e1fea992efdce4c23b425f9107dc180b20db4affc55b886064bc2eccf0fd9747db2add41b87b46d22ad1215bab97c7c73c974f839174
+
+
 transaction(publicKeys: [String], contracts: {String: String}) {
 	prepare(signer: AuthAccount) {
 		let acct = AuthAccount(payer: signer)
